@@ -1,0 +1,19 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+ALLOWED_HOSTS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^ALLOWED_HOSTS = []$/;"	v	language:Python
+AUTH_PASSWORD_VALIDATORS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v	language:Python
+BASE_DIR	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v	language:Python
+DATABASES	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^DATABASES = {$/;"	v	language:Python
+DEBUG	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^DEBUG = True$/;"	v	language:Python
+INSTALLED_APPS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^INSTALLED_APPS = [$/;"	v	language:Python
+LANGUAGE_CODE	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v	language:Python
+MIDDLEWARE	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^MIDDLEWARE = [$/;"	v	language:Python
+os	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^import os$/;"	i	language:Python
+ROOT_URLCONF	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^ROOT_URLCONF = 'profiles_project.urls'$/;"	v	language:Python
+SECRET_KEY	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^SECRET_KEY = 'g#8_&10vnqjad))$7w0-876va3-7ick2=b3ev5s5qh!vteco(e'$/;"	v	language:Python
+STATIC_URL	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^STATIC_URL = '\/static\/'$/;"	v	language:Python
+TEMPLATES	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^TEMPLATES = [$/;"	v	language:Python
+TIME_ZONE	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^TIME_ZONE = 'UTC'$/;"	v	language:Python
+USE_I18N	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^USE_I18N = True$/;"	v	language:Python
+USE_L10N	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^USE_L10N = True$/;"	v	language:Python
+USE_TZ	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^USE_TZ = True$/;"	v	language:Python
+WSGI_APPLICATION	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^WSGI_APPLICATION = 'profiles_project.wsgi.application'$/;"	v	language:Python
