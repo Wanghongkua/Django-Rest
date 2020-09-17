@@ -1,6 +1,7 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
 ALLOWED_HOSTS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^ALLOWED_HOSTS = []$/;"	v	language:Python
 AUTH_PASSWORD_VALIDATORS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v	language:Python
+AUTH_USER_MODEL	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^AUTH_USER_MODEL = 'profiles_api.UserProfile'$/;"	v	language:Python
 BASE_DIR	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v	language:Python
 DATABASES	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^DATABASES = {$/;"	v	language:Python
 DEBUG	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_project/settings.py	/^DEBUG = True$/;"	v	language:Python

@@ -1,0 +1,19 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+AbstractBaseUser	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.contrib.auth.models import AbstractBaseUser$/;"	i	language:Python
+BaseUserManager	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.contrib.auth.models import BaseUserManager$/;"	i	language:Python
+create_superuser	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def create_superuser(self, email, name, password):$/;"	m	language:Python	class:UserProfileManager
+create_user	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def create_user(self, email, name, password=None):$/;"	m	language:Python	class:UserProfileManager
+email	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    email = models.EmailField(max_length=255, unique=True)$/;"	v	language:Python	class:UserProfile
+get_full_name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def get_full_name(self):$/;"	m	language:Python	class:UserProfile
+get_short_name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def get_short_name(self):$/;"	m	language:Python	class:UserProfile
+is_active	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    is_active = models.BooleanField(default=True)$/;"	v	language:Python	class:UserProfile
+is_staff	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    is_staff = models.BooleanField(default=False)$/;"	v	language:Python	class:UserProfile
+models	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.db import models$/;"	i	language:Python
+name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    name = models.CharField(max_length=255)$/;"	v	language:Python	class:UserProfile
+objects	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    objects = UserProfileManager()$/;"	v	language:Python	class:UserProfile
+PermissionsMixin	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.contrib.auth.models import PermissionsMixin$/;"	i	language:Python
+REQUIRED_FIELDS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    REQUIRED_FIELDS = ['name']$/;"	v	language:Python	class:UserProfile
+USERNAME_FIELD	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    USERNAME_FIELD = 'email'$/;"	v	language:Python	class:UserProfile
+UserProfile	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^class UserProfile(AbstractBaseUser, PermissionsMixin):$/;"	c	language:Python
+UserProfileManager	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^class UserProfileManager(BaseUserManager):$/;"	c	language:Python
+__str__	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def __str__(self):$/;"	m	language:Python	class:UserProfile	file:
