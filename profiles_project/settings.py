@@ -25,7 +25,7 @@ SECRET_KEY = 'g#8_&10vnqjad))$7w0-876va3-7ick2=b3ev5s5qh!vteco(e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.hankwang.xyz', '127.0.0.1']
 
 
 # Application definition
