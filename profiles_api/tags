@@ -3,36 +3,48 @@ AbstractBaseUser	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/
 admin	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/admin.py	/^from django.contrib import admin$/;"	i	language:Python
 APIView	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework.views import APIView$/;"	i	language:Python
 BaseUserManager	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.contrib.auth.models import BaseUserManager$/;"	i	language:Python
+create	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def create(self, request):$/;"	m	language:Python	class:HelloViewSet
 create_superuser	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def create_superuser(self, email, name, password):$/;"	m	language:Python	class:UserProfileManager
 create_user	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def create_user(self, email, name, password=None):$/;"	m	language:Python	class:UserProfileManager
+DefaultRouter	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^from rest_framework.routers import DefaultRouter$/;"	i	language:Python
 delete	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def delete(self, request, pk=None):$/;"	m	language:Python	class:HelloApiView
+destroy	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def destroy(self, request, pk=None):$/;"	m	language:Python	class:HelloViewSet
 email	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    email = models.EmailField(max_length=255, unique=True)$/;"	v	language:Python	class:UserProfile
 get	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def get(self, request, format=None):$/;"	m	language:Python	class:HelloApiView
 get_full_name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def get_full_name(self):$/;"	m	language:Python	class:UserProfile
 get_short_name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def get_short_name(self):$/;"	m	language:Python	class:UserProfile
 HelloApiView	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^class HelloApiView(APIView):$/;"	c	language:Python
 HelloSerializer	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/serializers.py	/^class HelloSerializer(serializers.Serializer):$/;"	c	language:Python
+HelloViewSet	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^class HelloViewSet(viewsets.ViewSet):$/;"	c	language:Python
+include	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^from django.urls import path, include$/;"	i	language:Python
 is_active	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    is_active = models.BooleanField(default=True)$/;"	v	language:Python	class:UserProfile
 is_staff	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    is_staff = models.BooleanField(default=False)$/;"	v	language:Python	class:UserProfile
+list	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def list(self, request):$/;"	m	language:Python	class:HelloViewSet
 models	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/admin.py	/^from profiles_api import models$/;"	i	language:Python
 models	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.db import models$/;"	i	language:Python
 name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    name = models.CharField(max_length=255)$/;"	v	language:Python	class:UserProfile
 name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/serializers.py	/^    name = serializers.CharField(max_length=10)$/;"	v	language:Python	class:HelloSerializer
 objects	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    objects = UserProfileManager()$/;"	v	language:Python	class:UserProfile
+partial_update	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def partial_update(self, request, pk=None):$/;"	m	language:Python	class:HelloViewSet
 patch	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def patch(self, request, pk=None):$/;"	m	language:Python	class:HelloApiView
-path	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^from django.urls import path$/;"	i	language:Python
+path	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^from django.urls import path, include$/;"	i	language:Python
 PermissionsMixin	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.contrib.auth.models import PermissionsMixin$/;"	i	language:Python
 post	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def post(self, request):$/;"	m	language:Python	class:HelloApiView
 put	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def put(self, request, pk=None):$/;"	m	language:Python	class:HelloApiView
 REQUIRED_FIELDS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    REQUIRED_FIELDS = ['name']$/;"	v	language:Python	class:UserProfile
 Response	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework.response import Response$/;"	i	language:Python
+retrieve	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def retrieve(self, request, pk=None):$/;"	m	language:Python	class:HelloViewSet
+router	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^router = DefaultRouter()$/;"	v	language:Python
 serializers	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/serializers.py	/^from rest_framework import serializers$/;"	i	language:Python
 serializers	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from profiles_api import serializers$/;"	i	language:Python
 serializer_class	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    serializer_class = serializers.HelloSerializer$/;"	v	language:Python	class:HelloApiView
+serializer_class	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    serializer_class = serializers.HelloSerializer$/;"	v	language:Python	class:HelloViewSet
 status	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework import status$/;"	i	language:Python
+update	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def update(self, request, pk=None):$/;"	m	language:Python	class:HelloViewSet
 urlpatterns	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^urlpatterns = [$/;"	v	language:Python
 USERNAME_FIELD	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    USERNAME_FIELD = 'email'$/;"	v	language:Python	class:UserProfile
 UserProfile	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^class UserProfile(AbstractBaseUser, PermissionsMixin):$/;"	c	language:Python
 UserProfileManager	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^class UserProfileManager(BaseUserManager):$/;"	c	language:Python
 views	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^from profiles_api import views$/;"	i	language:Python
+viewsets	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework import viewsets$/;"	i	language:Python
 __str__	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def __str__(self):$/;"	m	language:Python	class:UserProfile	file:
