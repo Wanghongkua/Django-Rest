@@ -14,6 +14,8 @@ destroy	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_
 email	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    email = models.EmailField(max_length=255, unique=True)$/;"	v	language:Python	class:UserProfile
 extra_kwargs	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/serializers.py	/^        extra_kwargs = {$/;"	v	language:Python	class:UserProfileSerializer.Meta
 fields	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/serializers.py	/^        fields = ('id', 'email', 'name', 'password')$/;"	v	language:Python	class:UserProfileSerializer.Meta
+filters	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework import filters$/;"	i	language:Python
+filter_backends	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    filter_backends = (filters.SearchFilter,)$/;"	v	language:Python	class:UserProfileViewSet
 get	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def get(self, request, format=None):$/;"	m	language:Python	class:HelloApiView
 get_full_name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def get_full_name(self):$/;"	m	language:Python	class:UserProfile
 get_short_name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    def get_short_name(self):$/;"	m	language:Python	class:UserProfile
@@ -48,6 +50,7 @@ REQUIRED_FIELDS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/p
 Response	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework.response import Response$/;"	i	language:Python
 retrieve	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def retrieve(self, request, pk=None):$/;"	m	language:Python	class:HelloViewSet
 router	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^router = DefaultRouter()$/;"	v	language:Python
+search_fields	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    search_fields = ('name', 'email',)$/;"	v	language:Python	class:UserProfileViewSet
 serializers	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/serializers.py	/^from rest_framework import serializers$/;"	i	language:Python
 serializers	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from profiles_api import serializers$/;"	i	language:Python
 serializer_class	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    serializer_class = serializers.HelloSerializer$/;"	v	language:Python	class:HelloApiView
