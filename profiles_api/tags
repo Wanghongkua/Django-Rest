@@ -2,6 +2,7 @@
 AbstractBaseUser	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.contrib.auth.models import AbstractBaseUser$/;"	i	language:Python
 admin	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/admin.py	/^from django.contrib import admin$/;"	i	language:Python
 APIView	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework.views import APIView$/;"	i	language:Python
+api_settings	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework.settings import api_settings$/;"	i	language:Python
 authentication_classes	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    authentication_classes = (TokenAuthentication,)$/;"	v	language:Python	class:UserProfileViewSet
 BaseUserManager	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^from django.contrib.auth.models import BaseUserManager$/;"	i	language:Python
 create	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/serializers.py	/^    def create(self, validated_data):$/;"	m	language:Python	class:UserProfileSerializer
@@ -36,6 +37,7 @@ models	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_a
 name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    name = models.CharField(max_length=255)$/;"	v	language:Python	class:UserProfile
 name	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/serializers.py	/^    name = serializers.CharField(max_length=10)$/;"	v	language:Python	class:HelloSerializer
 objects	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    objects = UserProfileManager()$/;"	v	language:Python	class:UserProfile
+ObtainAuthToken	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework.authtoken.views import ObtainAuthToken$/;"	i	language:Python
 partial_update	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def partial_update(self, request, pk=None):$/;"	m	language:Python	class:HelloViewSet
 patch	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def patch(self, request, pk=None):$/;"	m	language:Python	class:HelloApiView
 path	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^from django.urls import path, include$/;"	i	language:Python
@@ -46,6 +48,7 @@ permission_classes	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-ap
 post	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def post(self, request):$/;"	m	language:Python	class:HelloApiView
 put	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def put(self, request, pk=None):$/;"	m	language:Python	class:HelloApiView
 queryset	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    queryset = models.UserProfile.objects.all()$/;"	v	language:Python	class:UserProfileViewSet
+renderer_classes	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES$/;"	v	language:Python	class:UserLoginApiView
 REQUIRED_FIELDS	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    REQUIRED_FIELDS = ['name']$/;"	v	language:Python	class:UserProfile
 Response	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^from rest_framework.response import Response$/;"	i	language:Python
 retrieve	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def retrieve(self, request, pk=None):$/;"	m	language:Python	class:HelloViewSet
@@ -62,6 +65,7 @@ update	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_a
 update	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^    def update(self, request, pk=None):$/;"	m	language:Python	class:HelloViewSet
 UpdateOwnProfile	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/permissions.py	/^class UpdateOwnProfile(permissions.BasePermission):$/;"	c	language:Python
 urlpatterns	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/urls.py	/^urlpatterns = [$/;"	v	language:Python
+UserLoginApiView	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/views.py	/^class UserLoginApiView(ObtainAuthToken):$/;"	c	language:Python
 USERNAME_FIELD	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^    USERNAME_FIELD = 'email'$/;"	v	language:Python	class:UserProfile
 UserProfile	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^class UserProfile(AbstractBaseUser, PermissionsMixin):$/;"	c	language:Python
 UserProfileManager	/Users/hongkuanwang/Documents/Learning/Django/profile-rest-api/profiles_api/models.py	/^class UserProfileManager(BaseUserManager):$/;"	c	language:Python
